@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProgramEleven_Fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvArray"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Yor Array is:[2,8,6,3,8,9]"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRun"
+        android:text="Run"
+        android:layout_below="@+id/tvArray"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_round"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvResult"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnRun"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
